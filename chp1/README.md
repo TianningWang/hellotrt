@@ -10,4 +10,4 @@ make
 ./bin/exec
 ```
 # attention
-The path which the engine file saved at should be fixed accroding to your computer
+The path which the engine file saved should be fixed accroding to your computer
