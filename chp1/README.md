@@ -10,4 +10,5 @@ make
 ./bin/exec
 ```
 # attention
-The path which the engine file saved should be fixed accroding to your computer
+* The Engine saved path in cpp file should be changed by yourself
+* Compile this code should link cuda and trt libraries, check these lib path and change the lib path in CMakeLists.txt 
