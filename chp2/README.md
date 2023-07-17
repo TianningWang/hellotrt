@@ -1,11 +1,13 @@
-# Code function
-1. Construct a model by trt api
+# code function
+1. Construction a model by trt api
 2. Build model to trt engine
 3. Serialize engine and save as file
-# Compile and run
+4. Load file and deserialize to engine
+5. inference
+# compile and run
 ```
 cd build
-camke ..
+cmake ..
 make
 ./bin/exec
 ```

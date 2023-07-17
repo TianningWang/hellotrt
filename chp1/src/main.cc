@@ -55,7 +55,7 @@ nvinfer1::Weights make_weights(float* weight_ptr, int weight_count)
 	return w;
 }
 
-bool buildModel()
+bool build_model()
 {
 	TRTLogger logger;
 	// create builder, and then create config and network by builder
@@ -106,5 +106,5 @@ bool buildModel()
 
 int main()
 {
-	buildModel();
+	build_model();
 }
